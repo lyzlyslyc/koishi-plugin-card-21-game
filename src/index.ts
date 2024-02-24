@@ -768,7 +768,7 @@ ${(!enableCardBetting || !enableSurrender) ? `正在为庄家发牌...\n\n请庄
 
 买保险倒计时开始！
 玩家可以在【${buyInsuranceMaxDuration}】秒内选择是否买保险！
-【买保险】：花费半注，若庄家21点则获得双倍赔偿，否则损失半注。
+【买保险】：花费半注，若庄家黑杰克则获得双倍赔偿，否则损失半注。
 【跳过买保险】：直接进入下一阶段。`)
 
       // 等待 buyInsuranceDuration 秒给玩家选择的时间
